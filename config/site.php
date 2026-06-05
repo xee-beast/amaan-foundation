@@ -8,7 +8,7 @@ return [
     'phone_tel' => '+18887116472',
     'email' => 'info@amaanfoundation.ca',
     'charitable_number' => '79931 0289 RR0001',
-    'logo' => '/images/logo.svg',
+    'logo' => '/images/logo.png',
     'favicon' => '/images/favicon.png',
     'og_image' => 'https://cdn.prod.website-files.com/666c550eaeae140accd55350/6879eeb04a534b55ed2dc0cd_nisa-home-metathumbnails.jpg',
     'addresses' => [

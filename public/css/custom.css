@@ -700,4 +700,20 @@ background: -webkit-linear-gradient(60deg, rgba(154, 59, 114, 1) 30%, rgba(240, 
     visibility: visible !important;
 }
 
+.footer-main-wrapper {
+    padding-top: 0 !important;
+}
+
+.logo-image.new-logo-menu.updated-hoe-logo {
+    max-height: 56px;
+    width: auto !important;
+    object-fit: contain;
+}
+
+.footer-logo {
+    height: 72px !important;
+    width: auto !important;
+    object-fit: contain;
+}
+
   
