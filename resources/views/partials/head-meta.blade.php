@@ -11,7 +11,7 @@
 <meta name="twitter:title" content="{{ $site['name'] }} - {{ $site['tagline'] }}">
 <meta name="twitter:description" content="{{ $site['description'] }}">
 <meta name="twitter:image" content="{{ $site['og_image'] }}">
-<link rel="shortcut icon" href="{{ asset($site['favicon']) }}" type="image/x-icon">
+<link rel="icon" href="{{ asset($site['favicon']) }}" type="image/png">
 <link rel="apple-touch-icon" href="{{ asset($site['favicon']) }}">
 <script type="application/ld+json">
 {
