@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
     <link href="{{ $site['cdn']['css_shared'] }}" rel="stylesheet" type="text/css" crossorigin="anonymous">
-    <link href="{{ $site['cdn']['css_page'] }}" rel="stylesheet" type="text/css" crossorigin="anonymous">
+    <link href="{{ asset($site['cdn']['css_page']) }}" rel="stylesheet" type="text/css">
     <link href="{{ $site['cdn']['splide_css'] }}" rel="stylesheet">
     <link href="{{ $site['cdn']['slick_css'] }}" rel="stylesheet">
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">

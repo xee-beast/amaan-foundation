@@ -28,7 +28,7 @@ return [
     ],
     'cdn' => [
         'css_shared' => 'https://cdn.prod.website-files.com/666c550eaeae140accd55350/css/nisafoundation.webflow.shared.b7106b880.min.css',
-        'css_page' => 'https://cdn.prod.website-files.com/666c550eaeae140accd55350/css/nisafoundation.webflow.68e396fbd2ac377931259c40.6a94b2e29.opt.min.css',
+        'css_page' => '/css/nisafoundation-themed.css',
         'splide_css' => 'https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css',
         'slick_css' => 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css',
         'webflow_js' => [
