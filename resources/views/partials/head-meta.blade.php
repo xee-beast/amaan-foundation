@@ -5,12 +5,13 @@
 <meta name="description" content="{{ $site['description'] }}">
 <meta property="og:title" content="{{ $site['name'] }} - {{ $site['tagline'] }}">
 <meta property="og:description" content="{{ $site['description'] }}">
-<meta property="og:image" content="{{ $site['og_image'] }}">
+<meta property="og:image" content="{{ asset($site['og_image']) }}">
+<meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ $site['name'] }} - {{ $site['tagline'] }}">
 <meta name="twitter:description" content="{{ $site['description'] }}">
-<meta name="twitter:image" content="{{ $site['og_image'] }}">
+<meta name="twitter:image" content="{{ asset($site['og_image']) }}">
 <link rel="icon" href="{{ asset($site['favicon']) }}" type="image/png">
 <link rel="apple-touch-icon" href="{{ asset($site['favicon']) }}">
 <script type="application/ld+json">
