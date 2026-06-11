@@ -5,23 +5,16 @@ $placeholder = '#';
 return [
     'main' => [
         [
-            'label' => 'Campaigns',
+            'label' => 'About Us',
             'children' => [
-                ['label' => 'Ramadan 2026', 'url' => $placeholder],
-                ['label' => 'Gaza Evacuees Support', 'url' => $placeholder],
-                ['label' => 'Amaan Champions', 'url' => $placeholder],
-                ['label' => 'Amaan Celebrations', 'url' => $placeholder],
-                ['label' => 'Give in their Honour', 'url' => $placeholder],
-            ],
-        ],
-        [
-            'label' => 'Dhul Hijjah',
-            'hidden' => true,
-            'children' => [
-                ['label' => 'Dhul Hijjah', 'url' => $placeholder],
-                ['label' => 'Best Ten Days', 'url' => $placeholder],
-                ['label' => 'Dhul Hijjah Resources', 'url' => $placeholder],
-                ['label' => 'Hajj Journey Activity Book', 'url' => $placeholder],
+                ['label' => 'About Amaan Foundation', 'url' => $placeholder],
+                ['label' => 'Shelter Locations', 'url' => $placeholder],
+                ['label' => 'Meet the Team', 'url' => $placeholder],
+                ['label' => 'Annual Reports', 'url' => $placeholder],
+                ['label' => 'FAQs', 'url' => $placeholder],
+                ['label' => 'Shop', 'url' => $placeholder],
+                ['label' => 'Our Funders and Supporters', 'url' => $placeholder],
+                ['label' => 'Contact Us', 'url' => $placeholder],
             ],
         ],
         [
@@ -32,26 +25,38 @@ return [
                 ['label' => 'Amaan Helpline', 'url' => $placeholder],
                 ['label' => 'Amaan Learning', 'url' => $placeholder],
                 ['label' => 'Amaan Mental Health', 'url' => $placeholder],
+                ['label' => 'Jobs & Professional Development', 'url' => $placeholder],
                 ['label' => 'Resources', 'url' => $placeholder],
-                ['label' => 'Blog', 'url' => $placeholder],
             ],
         ],
         [
-            'label' => 'About Us',
+            'label' => 'News & Events',
             'children' => [
-                ['label' => 'About Amaan Foundation', 'url' => $placeholder],
-                ['label' => 'Shelter Locations', 'url' => $placeholder],
-                ['label' => 'Meet the Team', 'url' => $placeholder],
-                ['label' => 'Annual Reports', 'url' => $placeholder],
-                ['label' => 'FAQs', 'url' => $placeholder],
-                ['label' => 'Shop', 'url' => $placeholder],
+                ['label' => 'Events', 'url' => $placeholder],
+                ['label' => 'Blog', 'url' => $placeholder],
                 ['label' => 'In the Media', 'url' => $placeholder],
-                ['label' => 'Our Funders and Supporters', 'url' => $placeholder],
-                ['label' => 'Contact Us', 'url' => $placeholder],
             ],
         ],
         [
-            'label' => 'Donate',
+            'label' => 'Campaigns',
+            'children' => [
+                ['label' => 'Ramadan 2026', 'url' => $placeholder],
+                ['label' => 'Gaza Evacuees Support', 'url' => $placeholder],
+                ['label' => 'Amaan Champions', 'url' => $placeholder],
+                ['label' => 'Amaan Celebrations', 'url' => $placeholder],
+                ['label' => 'Give in their Honour', 'url' => $placeholder],
+            ],
+        ],
+        [
+            'label' => 'Get Involved',
+            'children' => [
+                ['label' => 'Book a Workshop', 'url' => $placeholder],
+                ['label' => 'Partner and Volunteer', 'url' => $placeholder],
+                ['label' => 'Careers', 'url' => $placeholder],
+            ],
+        ],
+        [
+            'label' => 'Donations',
             'wide' => true,
             'children' => [
                 ['label' => 'Weekly Friday Giving', 'url' => $placeholder],
@@ -64,12 +69,13 @@ return [
             ],
         ],
         [
-            'label' => 'Get Involved',
+            'label' => 'Dhul Hijjah',
+            'hidden' => true,
             'children' => [
-                ['label' => 'Events', 'url' => $placeholder],
-                ['label' => 'Book a Workshop', 'url' => $placeholder],
-                ['label' => 'Partner and Volunteer', 'url' => $placeholder],
-                ['label' => 'Careers', 'url' => $placeholder],
+                ['label' => 'Dhul Hijjah', 'url' => $placeholder],
+                ['label' => 'Best Ten Days', 'url' => $placeholder],
+                ['label' => 'Dhul Hijjah Resources', 'url' => $placeholder],
+                ['label' => 'Hajj Journey Activity Book', 'url' => $placeholder],
             ],
         ],
     ],
@@ -77,6 +83,7 @@ return [
         ['label' => 'Amaan Homes', 'url' => $placeholder],
         ['label' => 'Amaan Helpline', 'url' => $placeholder],
         ['label' => 'Amaan Learning', 'url' => $placeholder],
+        ['label' => 'Jobs & Professional Development', 'url' => $placeholder],
     ],
     'languages' => [
         ['code' => 'en', 'label' => 'EN', 'url' => $placeholder],

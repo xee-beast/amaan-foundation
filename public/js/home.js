@@ -7,6 +7,7 @@
         initTopBarClose();
         initCarousels();
         initNewsletterForm();
+        initEventCategoryFilters();
     });
 
     function initStickyHeader() {
@@ -96,6 +97,32 @@
         document.querySelectorAll('form.w-form').forEach(function (form) {
             form.addEventListener('submit', function (event) {
                 event.preventDefault();
+            });
+        });
+    }
+
+    function initEventCategoryFilters() {
+        var filterContainer = document.querySelector('[data-event-filters]');
+        if (!filterContainer) {
+            return;
+        }
+
+        var buttons = filterContainer.querySelectorAll('[data-event-category]');
+        var cards = document.querySelectorAll('.upcoming-events .slide-item[data-event-category]');
+
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                var selectedCategory = button.getAttribute('data-event-category');
+
+                buttons.forEach(function (btn) {
+                    btn.classList.toggle('active', btn === button);
+                });
+
+                cards.forEach(function (card) {
+                    var cardCategory = card.getAttribute('data-event-category');
+                    var shouldShow = selectedCategory === 'all' || cardCategory === selectedCategory;
+                    card.style.display = shouldShow ? '' : 'none';
+                });
             });
         });
     }

@@ -45,5 +45,15 @@
                 <img loading="lazy" src="{{ asset('images/programs/icon-mental-health.svg') }}" alt="Professional therapy icon" class="program-icon upadted-flex-version">
             </div>
         </div>
+        <div class="program-flex-item four program-card-jobs">
+            <img loading="lazy" src="{{ asset('images/programs/arrow-right.svg') }}" alt="arrow-right white" class="program-icon upadted-flex-version-mobile-arrwo">
+            <div class="program-title-content-box updated-flex-version">
+                <h3 class="heading-style-3-update updated-program-title">Jobs &amp; Professional Development</h3>
+                <p class="para-all-updated white">Career support and skills for women</p>
+            </div>
+            <div class="program-icon-border">
+                <img loading="lazy" src="{{ asset('images/programs/icon-jobs.svg') }}" alt="Jobs and professional development icon" class="program-icon upadted-flex-version">
+            </div>
+        </div>
     </div>
 </section>

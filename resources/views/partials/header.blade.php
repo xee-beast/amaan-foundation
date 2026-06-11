@@ -14,6 +14,9 @@
                         <img loading="lazy" src="https://cdn.prod.website-files.com/666c550eaeae140accd55350/68e3e922bc5cf48b815dc4f5_icons8-phone-500%201.svg" alt="Phone white icon" class="top-phone-icon">
                         <a href="tel:{{ $site['phone_tel'] }}" class="navbar-top-link">{{ $site['phone'] }}</a>
                     </div>
+                    <div class="top-nav-location">
+                        <span class="top-nav-location-text">Location: {{ $site['location'] }}</span>
+                    </div>
                     <img loading="lazy" src="https://cdn.prod.website-files.com/666c550eaeae140accd55350/6675717a922f45f306591751_closewhite.svg" alt="close white icon" class="close-icon notifi-icon">
                 </div>
             </div>

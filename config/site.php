@@ -4,8 +4,9 @@ return [
     'name' => 'Amaan Foundation',
     'tagline' => 'Empowering Women, Transforming Lives',
     'description' => 'Amaan Foundation supports women & children with shelters & casework, a 16/7 helpline, web-therapy sessions, and learning workshops for the community.',
-    'phone' => '+1 888 711 6472',
-    'phone_tel' => '+18887116472',
+    'phone' => '+1 (613) 240-5181',
+    'phone_tel' => '+16132405181',
+    'location' => 'Ottawa',
     'email' => 'info@amaanfoundation.ca',
     'charitable_number' => '79931 0289 RR0001',
     'logo' => '/images/logo.png',
@@ -13,12 +14,8 @@ return [
     'og_image' => '/images/logo.png',
     'addresses' => [
         [
-            'label' => 'Mailing Address',
-            'line' => '214 - 115 Matheson Blvd W. Mississauga, ON L5R 3L1',
-        ],
-        [
-            'label' => 'Registered Legal Address',
-            'line' => '402-3999 Henning Dr. Burnaby BC V5C 6P9',
+            'label' => 'Location',
+            'line' => 'Ottawa, ON',
         ],
     ],
     'social' => [
