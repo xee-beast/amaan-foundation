@@ -1,45 +1,50 @@
 <?php
 
+$cdn = 'https://cdn.prod.website-files.com/666c550eaeae140accd55350';
 $placeholder = '#';
 
 return [
     'categories' => [
         ['slug' => 'all', 'label' => 'All Events'],
+        ['slug' => 'community-gatherings', 'label' => 'Community Gatherings'],
         ['slug' => 'seminars-workshops', 'label' => 'Seminars & Workshops'],
         ['slug' => 'eid-seasonal', 'label' => 'Eid & Seasonal Festivals'],
     ],
     'featured' => [
         [
-            'title' => 'Gathering in Gratitude - Windsor',
-            'description' => 'Join us for a heartfelt and uplifting brunch hosted by Amaan Foundation',
+            'title' => 'Gathering in Gratitude',
             'url' => $placeholder,
-            'image' => 'https://cdn.prod.website-files.com/666c550eaeae140accd55350/69fb77e684ed46a46f1457af_gathering-in-gratitude-windsor-desktop-image.webp',
-            'image_alt' => 'Three women smiling together at a brunch event in Windsor',
-            'category' => 'eid-seasonal',
-        ],
-        [
-            'title' => 'Gathering in Gratitude - Vancouver',
-            'description' => 'Join us for a heartfelt and uplifting brunch hosted by Amaan Foundation',
-            'url' => $placeholder,
-            'image' => 'https://cdn.prod.website-files.com/666c550eaeae140accd55350/69fb78d3a4f6678b9008cca5_gathering-in-gratitude-vancouver-image.webp',
-            'image_alt' => 'Four women of diverse backgrounds at a brunch event in Vancouver',
+            'image' => '/images/events/gathering-in-gratitude.webp',
+            'image_alt' => 'Women gathered for a gratitude brunch celebrating motherhood and women',
             'category' => 'eid-seasonal',
         ],
         [
             'title' => 'Tiny Chefs & Super Moms',
-            'description' => 'Celebrate Mother\'s Day with a fun, hands-on culinary adventure for moms & kids',
             'url' => $placeholder,
-            'image' => 'https://cdn.prod.website-files.com/666c550eaeae140accd55350/69fb784a5e522c1083ef6517_gathering-in-gratitude-vancouver-desktop-image.webp',
+            'image' => '/images/events/tiny-chefs-super-moms.webp',
             'image_alt' => 'Mother and daughter cooking together in a kitchen',
             'category' => 'seminars-workshops',
         ],
         [
             'title' => 'Amaan Cafe',
-            'description' => 'A space for community to have collaborative conversations that transform lives.',
             'url' => $placeholder,
-            'image' => 'https://cdn.prod.website-files.com/666c550eaeae140accd55350/66d74b1e83aef1f0006727cf_Sponsor-an-Event-Single-Image.jpg5.webp',
-            'image_alt' => 'Community gathering at Amaan Cafe',
-            'category' => 'seminars-workshops',
+            'image' => '/images/events/amaan-cafe.webp',
+            'image_alt' => 'Women enjoying brunch and conversation at Amaan Cafe',
+            'category' => 'community-gatherings',
+        ],
+        [
+            'title' => 'Community Gatherings',
+            'url' => $placeholder,
+            'image' => "{$cdn}/66841deb0c7d375d077e61fe_nisa-events-gallery-img-desktop-1.webp",
+            'image_alt' => 'Women connecting at a community gathering',
+            'category' => 'community-gatherings',
+        ],
+        [
+            'title' => 'Eid Celebration',
+            'url' => $placeholder,
+            'image' => "{$cdn}/66841deb5723739f66d5d8d9_nisa-events-gallery-img-desktop-3.webp",
+            'image_alt' => 'Families celebrating Eid together',
+            'category' => 'eid-seasonal',
         ],
     ],
 ];

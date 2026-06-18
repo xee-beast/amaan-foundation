@@ -27,16 +27,20 @@
                 @foreach ($events['featured'] as $event)
                     <div class="slide-item border-on-hover" data-event-category="{{ $event['category'] }}">
                         <div class="card-body progm">
-                            <a href="{{ $event['url'] }}" class="link-block-12 w-inline-block">
-                                <img
-                                    src="{{ $event['image'] }}"
-                                    loading="lazy"
-                                    alt="{{ $event['image_alt'] }}"
-                                    class="event-slider-img"
-                                >
+                            <a href="{{ $event['url'] }}" class="link-block-12 w-inline-block event-card-image-link">
+                                <div class="event-card-image-wrap">
+                                    @if (! empty($event['locations']))
+                                        <span class="event-location-badge">{{ $event['locations'] }}</span>
+                                    @endif
+                                    <img
+                                        src="{{ $event['image'] }}"
+                                        loading="lazy"
+                                        alt="{{ $event['image_alt'] }}"
+                                        class="event-slider-img rounded-corners"
+                                    >
+                                </div>
                             </a>
                             <h3 class="event-card-title">{{ $event['title'] }}</h3>
-                            <p class="para-text-16 mt-10">{{ $event['description'] }}</p>
                         </div>
                     </div>
                 @endforeach

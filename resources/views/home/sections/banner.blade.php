@@ -18,21 +18,21 @@
                     <div class="banner-card-box-wrapper">
                         <div class="bannr-counter-updated-box left-version">
                             <div class="banner-counter-number-box-updated">
-                                <h2 class="banner-counter-number-updated">2,470</h2>
+                                <h2 class="banner-counter-number-updated">24</h2>
                             </div>
                             <p class="banner-counter-para-updated">Women and Children Sheltered</p>
                         </div>
                         <div class="bannr-counter-updated-box left-version">
                             <div class="banner-counter-number-box-updated">
-                                <h3 class="banner-counter-number-updated">19,881</h3>
+                                <h3 class="banner-counter-number-updated">756</h3>
                             </div>
-                            <p class="banner-counter-para-updated">Women and Children Assisted Remotely</p>
+                            <p class="banner-counter-para-updated">Women and Children Supported remotely</p>
                         </div>
                     </div>
                     <div class="banner-card-box-wrapper">
                         <div class="bannr-counter-updated-box left-version">
                             <div class="banner-counter-number-box-updated">
-                                <h3 class="banner-counter-number-updated">92,000+</h3>
+                                <h3 class="banner-counter-number-updated">154</h3>
                             </div>
                             <p class="banner-counter-para-updated">Helpline Calls Received</p>
                         </div>
@@ -40,11 +40,11 @@
                             <div class="banner-counter-number-box-updated">
                                 <h3 class="banner-counter-number-updated">1,317</h3>
                             </div>
-                            <p class="banner-counter-para-updated">Palestinian Evacuees Supported</p>
+                            <p class="banner-counter-para-updated">Evacuees Supported</p>
                         </div>
                         <div class="bannr-counter-updated-box left-version">
                             <div class="banner-counter-number-box-updated">
-                                <h3 class="banner-counter-number-updated">1,522</h3>
+                                <h3 class="banner-counter-number-updated">54</h3>
                             </div>
                             <p class="banner-counter-para-updated">Web Therapy Sessions</p>
                         </div>
@@ -52,15 +52,15 @@
                     <div class="banner-card-box-wrapper">
                         <div class="bannr-counter-updated-box left-version">
                             <div class="banner-counter-number-box-updated">
-                                <h3 class="banner-counter-number-updated">4,300+</h3>
+                                <h3 class="banner-counter-number-updated">23</h3>
                             </div>
                             <p class="banner-counter-para-updated">Workshop Attendees Trained</p>
                         </div>
                         <div class="bannr-counter-updated-box left-version">
                             <div class="banner-counter-number-box-updated">
-                                <h3 class="banner-counter-number-updated">10</h3>
+                                <h3 class="banner-counter-number-updated">1</h3>
                             </div>
-                            <p class="banner-counter-para-updated">Locations across Canada</p>
+                            <p class="banner-counter-para-updated">Locations</p>
                         </div>
                     </div>
                 </div>
@@ -68,45 +68,45 @@
                     <img src="https://cdn.prod.website-files.com/666c550eaeae140accd55350/68e3a5fcbc02c9518e159d84_star.svg" loading="lazy" alt="star icon" class="banner-star-image-two updated-star">
                     <div class="bannr-counter-updated-box left-version">
                         <div class="banner-counter-number-box-updated">
-                            <h4 class="banner-counter-number-updated">2,470</h4>
+                            <h4 class="banner-counter-number-updated">24</h4>
                         </div>
                         <p class="banner-counter-para-updated">Women &amp; children sheltered</p>
                     </div>
                     <div class="bannr-counter-updated-box left-version">
                         <div class="banner-counter-number-box-updated">
-                            <h4 class="banner-counter-number-updated">92,000+</h4>
+                            <h4 class="banner-counter-number-updated">154</h4>
                         </div>
                         <p class="banner-counter-para-updated">Helpline Calls Received</p>
                     </div>
                     <div class="bannr-counter-updated-box left-version">
                         <div class="banner-counter-number-box-updated">
-                            <h4 class="banner-counter-number-updated">19,881</h4>
+                            <h4 class="banner-counter-number-updated">756</h4>
                         </div>
-                        <p class="banner-counter-para-updated">Women and Children Assisted Remotely</p>
+                        <p class="banner-counter-para-updated">Women and Children Supported remotely</p>
                     </div>
                     <div class="bannr-counter-updated-box left-version">
                         <div class="banner-counter-number-box-updated">
                             <h4 class="banner-counter-number-updated">1,317</h4>
                         </div>
-                        <p class="banner-counter-para-updated">Palestinian evacuees supported</p>
+                        <p class="banner-counter-para-updated">Evacuees supported</p>
                     </div>
                     <div class="bannr-counter-updated-box left-version">
                         <div class="banner-counter-number-box-updated">
-                            <h4 class="banner-counter-number-updated">4,300+</h4>
+                            <h4 class="banner-counter-number-updated">23</h4>
                         </div>
                         <p class="banner-counter-para-updated">Workshop Attendees Trained</p>
                     </div>
                     <div class="bannr-counter-updated-box left-version">
                         <div class="banner-counter-number-box-updated">
-                            <h4 class="banner-counter-number-updated">1,522</h4>
+                            <h4 class="banner-counter-number-updated">54</h4>
                         </div>
                         <p class="banner-counter-para-updated">Web Therapy Sessions</p>
                     </div>
                     <div class="bannr-counter-updated-box left-version">
                         <div class="banner-counter-number-box-updated">
-                            <h4 class="banner-counter-number-updated">10</h4>
+                            <h4 class="banner-counter-number-updated">1</h4>
                         </div>
-                        <p class="banner-counter-para-updated">Locations Across Canada</p>
+                        <p class="banner-counter-para-updated">Locations</p>
                     </div>
                 </div>
             </div>
