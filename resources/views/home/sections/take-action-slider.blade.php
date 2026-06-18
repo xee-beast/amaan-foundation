@@ -14,7 +14,6 @@
                                     <h3 class="heading-style-3 color-white weight-reguler fontsize">Give Now</h3>
                                     <p class="para-all-updated white center">Your donation provides immediate support to her journey, covering essential needs and expenses right now. Every amount makes a difference!</p>
                                 </div>
-                                <a href="#" class="button-updated w-button">Donate</a>
                             </div>
                         </div>
                     </div>
@@ -26,7 +25,6 @@
                                     <h3 class="heading-style-3 color-white weight-reguler fontsize">Sign up to Volunteer</h3>
                                     <p class="para-all-updated white center">Dedicate your time and skills to help her succeed. Join our team and play a hands-on role in making her dreams a reality.</p>
                                 </div>
-                                <a href="#" class="button-updated w-button">Volunteer</a>
                             </div>
                         </div>
                     </div>
@@ -38,7 +36,6 @@
                                     <h3 class="heading-style-3 color-white weight-reguler fontsize">Sponsor her Journey</h3>
                                     <p class="para-all-updated white center">Make a profound, long-term impact by becoming an official sponsor. Your sustained support helps secure her future success and commitment.</p>
                                 </div>
-                                <a href="#" class="button-updated w-button">Sponsor</a>
                             </div>
                         </div>
                     </div>
@@ -50,7 +47,6 @@
                                     <h3 class="heading-style-3 color-white weight-reguler fontsize">Become a Monthly Donor</h3>
                                     <p class="para-all-updated white center">Monthly Giving provides a stable, predictable stream of funding that she can rely on to pursue her goals year-round.</p>
                                 </div>
-                                <a href="#" class="button-updated w-button">Automate</a>
                             </div>
                         </div>
                     </div>
